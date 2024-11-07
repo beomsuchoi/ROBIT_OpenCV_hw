@@ -29,8 +29,8 @@ void RobotArm::draw(cv::Mat &image) {
     
     // 로봇 팔 그리기
     cv::line(image, cv::Point(base_x, base_y), joint1, cv::Scalar(0, 255, 0), 3); // 첫 번째 팔
-    cv::line(image, joint1, joint2, cv::Scalar(0, 255, 0), 3);                     // 두 번째 팔
+    cv::line(image, joint1, joint2, cv::Scalar(0, 255, 0), 3);
     cv::circle(image, cv::Point(base_x, base_y), 5, cv::Scalar(255, 0, 0), -1);     // 어깨 원
-    cv::circle(image, joint1, 5, cv::Scalar(255, 0, 0), -1);                         // 팔꿈치 원
-    cv::circle(image, joint2, 5, cv::Scalar(255, 0, 0), -1);                         // 팔 끝 원
+    cv::circle(image, joint1, 5, cv::Scalar(255, 0, 0), -1);
+    cv::circle(image, joint2, 5, cv::Scalar(255, 0, 0), -1);
 }
