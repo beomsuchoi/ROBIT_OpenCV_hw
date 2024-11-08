@@ -1,3 +1,3 @@
 # ROBIT_OpenCV_hw
 
-Reports are all integrated by one
+Reports are all integrated by one.
